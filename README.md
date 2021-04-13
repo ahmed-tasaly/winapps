@@ -267,7 +267,6 @@ The following commands can be used to manage your application configurations:
 ./installer.sh --system --uninstall  # Remove all configured applications for the entire system
 ```
 
-<<<<<<< HEAD
 ## Improving performance
 
 #### Reducing idle CPU usage from ~25% to ~3%
@@ -287,7 +286,6 @@ to:
   <timer name='hypervclock' present='yes'/>
 </clock>
 ```
-=======
 ## Enabling audio passthrough via PulseAudio
 
 First of all, you add the RDP flag `/audio-mode:1` to your `winapps.conf` under `~/.config/winapps`, after that edit your VM XML, adding the QEMU namespace.
@@ -318,7 +316,6 @@ After this, you edit your `/etc/libvirt/qemu.conf` and set the `user` variable t
 
 ## Common issues
 - **Black window**: This is a FreeRDP bug that sometimes comes up. Try restarting the application or rerunning the command. If that doesn't work, ensure you have `MULTIMON` disabled.
->>>>>>> 205ad9dc266fa767ca68ced39ccfd10cc845eeec
 
 ## Shout outs
 - Some icons pulled from
